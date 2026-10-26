@@ -1,0 +1,25 @@
+[project]
+name = "tenable-scan-sweep"
+version = "1.0.0"
+description = "Answer which scans target what across Tenable Vulnerability Management or Security Center, from a read-only snapshot."
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Lance Duvall" }]
+requires-python = ">=3.11"
+dependencies = ["pytenable>=26.10.1"]
+
+[dependency-groups]
+dev = ["pytest>=8", "responses>=0.25", "ruff>=0.6"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore:The workbench module:DeprecationWarning"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "B"]
+
+[tool.ruff.format]
+quote-style = "single"
