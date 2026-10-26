@@ -227,8 +227,7 @@ runs them on Python 3.11 to 3.13.
 
 ## License
 
-Licensed under the [MIT License](LICENSE). Copyright (c) 2026 Lance Duvall
-([@lanz](https://github.com/lanz)).
+Licensed under the [MIT License](LICENSE). Copyright (c) 2026 [Lance Duvall](https://github.com/lanz).
 
 ## Disclaimer
 
