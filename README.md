@@ -1,5 +1,7 @@
 # Tenable Scan Sweep
 
+[![Listed on CyberAgents Exchange](https://img.shields.io/badge/CyberAgents%20Exchange-Listed-E7FF00?style=flat-square&labelColor=1E2426)](https://exchange.tenable.com/skills/tenable-scan-sweep/)
+
 A Claude Code skill and command-line tool. It answers "which scans target X?" and other
 scan-configuration questions across every scan in Tenable Vulnerability Management (VM) or
 Tenable Security Center (SC).
